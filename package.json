@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest src",
     "prepare": "is-ci || husky install",
-    "lint": "eslint . --cache --fix"
+    "lint": "eslint .",
+    "lint:fix": "yarn lint --cache --fix"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",

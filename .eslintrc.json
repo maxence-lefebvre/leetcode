@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb", "plugin:jest/all", "plugin:prettier/recommended"],
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "import/prefer-default-export": 0
+  }
+}

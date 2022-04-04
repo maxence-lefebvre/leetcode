@@ -1,11 +1,5 @@
 /**
- * @typedef {object} ListNode
- * @property {number} [val=0]
- * @property {ListNode|null} [next=null]
- */
-
-/**
- * @see {@link https://leetcode.com/problems/swapping-nodes-in-a-linked-list/ }
+ * @see {@link https://leetcode.com/problems/swapping-nodes-in-a-linked-list/}
  * @param {ListNode} head
  * @param {number} k
  * @returns {ListNode}

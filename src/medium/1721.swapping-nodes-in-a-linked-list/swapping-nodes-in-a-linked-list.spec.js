@@ -1,5 +1,5 @@
 import { swapNodes } from './swapping-nodes-in-a-linked-list';
-import { fromListNode, toListNode } from './list-node';
+import { fromListNode, toListNode } from '../../shared/list-node';
 
 describe('1721.swapping-nodes-in-a-linked-list', () => {
   it.each`

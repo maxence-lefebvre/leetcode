@@ -1,3 +1,9 @@
+/**
+ * @typedef {object} ListNode
+ * @property {number} [val=0]
+ * @property {ListNode|null} [next=null]
+ */
+
 export function ListNode(val = 0) {
   this.val = val;
   this.next = null;

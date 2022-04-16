@@ -6,5 +6,8 @@
   },
   "rules": {
     "import/prefer-default-export": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
   }
 }
